@@ -1,0 +1,30 @@
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+    
+    background-color: #C4170C;
+}
+
+.logo span, .thanksBlock span {
+    font-size: 32px;
+    line-height: 1.1;
+    font-family: var(--codex-font-family-display, "glbOpenSans", "Open Sans", "opensans", "Globotipo Variable", sans-serif);
+    color: white;
+}
+
+.thanksBlock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.thanksBlock span {
+    font-size: 72px;
+    line-height: 1.1;
+    font-family: var(--codex-font-family-display, "glbOpenSans", "Open Sans", "opensans", "Globotipo Variable", sans-serif);
+    color: #C4170C;
+}
